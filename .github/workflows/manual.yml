@@ -17,4 +17,4 @@ jobs:
     steps:
       - name: Display Greeting
         run: |
-          echo "${{ inputs.greeting }}, ${{ inputs.name }}!"
+          echo "What's happening?  ${{ inputs.greeting }}, ${{ inputs.name }}!!!!"
